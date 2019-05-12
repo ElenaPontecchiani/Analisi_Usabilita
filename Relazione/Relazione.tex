@@ -1,0 +1,98 @@
+\documentclass[a4paper, oneside, openany, dvipsnames, table]{article}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{lmodern}
+\usepackage{breakurl}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{stile}
+\usepackage{hyperref}
+\usepackage{graphicx} 
+
+
+\begin{document}
+\copertina
+\tableofcontents
+\newpage
+\section{Introduzione}
+	\input{sez/Introduzione.tex} %può anche rimanere vuoto
+	\subsection{Nome}
+		\input{sez/Introduzione/Nome.tex}
+	\subsection{Funzioni principali del sito}
+		\input{sez/Introduzione/Funzioni.tex}
+	\subsection{Utenza}
+		\input{sez/Introduzione/Utenza.tex}
+	\subsection{Serach Engine Optimization}
+		\input{sez/Introduzione/Seo.tex}
+	
+	
+\newpage
+\section{Analisi strutturale del sito}
+	\input{sez/Analisi.tex}
+	\subsection{Struttura generale del sito}
+		\input{sez/Analisi/Struttura_generale.tex}
+	\subsection{Organizzazione dell'informazione}
+		\input{sez/Analisi/Organizzazione_info.tex}
+	\subsection{Parti salienti}
+		\input{sez/Analisi/Parti_Salienti.tex}
+	
+
+\newpage
+\section{Homepage}
+	\input{sez/Homepage.tex}
+	\subsection{Descrizione}
+		\input{sez/Homepage/Metafora.tex}
+	\subsection{Le 6 w}
+		\input{sez/Homepage/Le6w.tex}
+		\subsubsection{Where}
+			\input{sez/Homepage/Le6w/Where.tex}
+		\subsubsection{Who}
+			\input{sez/Homepage/Le6w/Who.tex}
+		\subsubsection{Why}
+			\input{sez/Homepage/Le6w/Why.tex}
+		\subsubsection{What}
+			\input{sez/Homepage/Le6w/What.tex}
+		\subsubsection{When}
+			\input{sez/Homepage/Le6w/When.tex}
+		\subsubsection{How}
+			\input{sez/Homepage/Le6w/How.tex}
+		\subsection{Note}
+		\input{sez/Homepage/Note.tex}	
+			
+
+
+\newpage
+\section{Pagine Interne}
+	\input{sez/Pag_interne.tex}
+	\subsection{Descrizione}
+		\input{sez/Pag_interne/Descrizione.tex}
+	\subsection{Come cambiano le 6 W}
+		\input{sez/Pag_interne/Cambio_w.tex}
+	
+	
+	
+		
+	
+\newpage
+\section{Barra di ricerca}
+	\input{sez/Barra.tex}
+	
+\newpage
+\section{Contenuto}
+	\input{sez/Contenuto.tex}
+
+	
+\newpage
+\section{Cose che non dovrebbero esserci..}
+	\input{sez/Errori.tex}
+
+
+\newpage
+\section{Giudizio finale}
+	\input{sez/Giudizio_finale.tex}
+
+\newpage
+
+	     \listoffigures
+\end{document}
